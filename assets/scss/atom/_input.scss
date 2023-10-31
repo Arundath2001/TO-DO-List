@@ -1,0 +1,29 @@
+.input{
+    input{
+        width: 350px;
+        border: 0;
+        outline: 0;
+        background: transparent;
+        padding: 10px;
+        font-weight: 14px;
+        
+    }
+}
+
+@include mobile{
+    .input{
+        input{
+            width: 100%;
+        }
+
+    }
+}
+
+@include tablet{
+    .input{
+        input{
+            width: 100%;
+        }
+
+    }
+}
